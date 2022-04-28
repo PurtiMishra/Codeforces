@@ -1,0 +1,23 @@
+155167735	Practice:
+Purti_Mishra	231A - 11	GNU C++14	Accepted	30 ms	8 KB	2022-04-28 05:37:18	2022-04-28 05:37:17	
+  
+→ SourceCopy
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int n, Petya, Vasya, Tonya, number(0);
+    cin >> n;
+    while (n--)
+    {
+        cin >> Petya >> Vasya >> Tonya;
+        if (Petya + Vasya + Tonya >= 2)
+        {
+            number += 1;
+        }
+    }
+    cout << number << endl;
+    return 0;
+}
