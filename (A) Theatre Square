@@ -1,0 +1,14 @@
+By Purti_Mishra, contest: Codeforces Beta Round #1, problem: (A) Theatre Square, Accepted,
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+long long int n,m,a,result;
+cin>>n>>m>>a;
+result=(n%a==0)?n/a:n/a +1;
+result=result*((m%a==0)?m/a:m/a +1);
+cout<<result<<endl;
+return 0;
+}
