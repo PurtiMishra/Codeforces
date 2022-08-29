@@ -1,0 +1,12 @@
+By Purti_Mishra, contest: Codeforces Beta Round #47, problem: (A) Domino piling, Accepted,
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int M, N;
+    cin >> M >> N;
+    cout << M * N / 2 << endl;
+    return 0;
+}
